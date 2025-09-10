@@ -1,1 +1,1 @@
-# Python-Driven-UI-for-Advanced-SQL-Database-Operations
+# Inventory and Sales Analytics Dashboard (SQL + Streamlit)
