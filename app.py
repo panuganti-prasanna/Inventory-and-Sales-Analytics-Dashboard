@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import mysql.connector
 
 from db_functions import(
 connect_to_db,
@@ -167,6 +168,7 @@ elif option == "Operational tasks":
                         st.success(f"Reorder ID {selected_reorder_id} marked as received")
                     except Exception as e:
                         st.error(f"Erroe {e}")
+
 
 
 
